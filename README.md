@@ -29,7 +29,7 @@ console.log(web3); // {thk: .., shh: ...} // It's here!
 Set a provider (`HttpProvider` using [HTTP Basic Authentication](https://en.wikipedia.org/wiki/Basic_access_authentication)):
 
 ```js
-let rpcUrl = '';     //rpc proxy
+let rpcUrl = 'https://rpcproxy.thinkium.vip';     //rpc proxy
 web3.setProvider(new web3.providers.HttpProvider(rpcUrl));
 ```
 
